@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+ 	<title>Меню</title>
+ 	<meta charset="UTF-8">
+ 		<link rel="stylesheet" href="main.css">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+</head>
+<body>
+
+	<div class="container-fluid">  <!-- container-fluid -->
+
+		<div class="row back">
+			<div class="col-md-offset-1 btn-back"></div>
+		</div>
+		<div class="row">
+			<div class="col-xs-4 col-xs-offset-5 buttons">
+				<a href = "#" class="btn1 col-xs-5 col-sm-4 ">Новые</a>
+				<a href = "#" class="btn2 col-xs-5 col-sm-4 ">Лучшие</a>
+			</div>
+		</div>
+
+		<div class="row  img-cont"><!-- img-cont -->
+
+			<!--  -->
+			<div class="col-xs-12 col-sm-6 col-md-4 img-item new"><!-- .img-item  блок с новой картинкой -->
+				<img class = "img  col-sm-10" src="http://1.bp.blogspot.com/-_ybxn7cvHJE/T-Lrav5e1fI/AAAAAAAAGJ4/QqWx7LITko0/s1600/66571_Nature-Full-HD-Wallpaper-national-geographic-7822275-1920-1080.jpg" alt="">
+				<div class="toolbar col-sm-offset-1 col-sm-10"><!-- .Toolbar -->
+				 	<div class="like col-xs-2"></div>
+				 	<div class="download col-xs-2 col-xs-offset-4"></div>
+				 	<div class="repost col-xs-2"></div>
+				 	<div class="info col-xs-2"></div>
+				</div><!--END .Toolbar -->
+			</div><!--END img-item new -->
+
+
+			<div class="col-xs-12 col-sm-6 col-md-4 img-item best"><!-- img-item  Блок с популярной картинкой -->
+					<img class = "img  col-sm-10" src="http://www.setwalls.ru/pic/201305/640x960/setwalls.ru-52037.jpg" alt="">
+					<div class = "crow"></div>
+					<div class="toolbar col-sm-offset-1 col-sm-10"><!-- .Toolbar -->
+					 	<div class="like col-xs-2"></div> <!-- Обработчик клика на лайк файл common.js > строка 53-->
+						<div class="account-likes col-xs-2"> 999 </div>
+					 	<div class="download col-xs-2 col-xs-offset-2"></div><!-- Обработчик скачивания на лайк файл common.js > строка 62-->
+					 	<div class="repost col-xs-2"></div><!-- Обработчик клика на лайк файл common.js > строка 68-->
+					 	<div class="info col-xs-2"></div><!-- Обработчик клика на лайк файл common.js > строка 74-->
+					</div><!--END .Toolbar -->
+
+			</div><!--END img-item new -->
+		</div><!--END img-cont -->
+
+		<div class ="col-xs-8 col-xs-offset-2" id = "ModalDiv"></div><!-- Всплывающее окно с выбранной картинкой -->
+		<div class = " btn-close btn-success" type="button" id = "btn_close" ></div><!-- кнопка закрытия всплывающего окна с выбранной картинкой -->
+	</div><!--END container-fluid -->
+	<script src = "jquery-1.4.2.min.js"></script>
+	<script src = "common.js"></script>
+</body>
+</html>

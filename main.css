@@ -1,0 +1,142 @@
+		*{
+			transition: all 0.5s;
+		}
+		.container-fluid{
+			background: #ececec;
+		}
+		.back{
+			background: #555555;
+		}
+		.btn-back{
+			border: solid 2px #4fcbab;
+		  border-radius: 50%;
+		  width: 35px;
+		  height: 35px;
+		  cursor: pointer;
+
+		}
+		.buttons{
+			margin-top: 5px;
+		}
+		.btn1{
+			text-align: center;
+		    color: #4fd0ae;
+		    height: 30px;
+		    border: 2px solid #4fd0ae;
+		    padding: 3px 0 0 0;
+		    border-radius: 5px 0 0 5px;
+		    cursor: pointer;
+
+		}
+		.btn2{
+			text-align: center;
+		    color: #ececec;
+		    background: #4fd0ae;
+		    height: 30px;
+		    border: 2px solid #4fd0ae;
+		    padding: 3px 0 0 0;
+		    border-radius: 0 5px 5px 0;
+		    cursor: pointer;
+
+		}
+		.img-cont{
+			/*margin-top: 30px;*/
+		}
+		.btn1:hover{
+			 color: #4fd0ae;
+			 text-decoration: none;
+		}
+		.btn2:hover{
+			 color: #ececec;
+			 text-decoration: none;
+		}
+		.img-item{
+			display: flex;
+			flex-wrap: wrap;
+			height: 450px;
+			background: white;
+			margin-top:10px;
+			/*border: 1px solid #555555;*/
+			padding-left: 0px!important;
+			padding-right: 0px!important;
+			position: relative;
+
+		}
+		.img{
+			margin: auto;
+			max-height: 400px;
+			max-width: 75%;
+		}
+		.new{
+			opacity: 0;
+		}
+		#ModalDiv{
+			display: none;
+			opacity: 0;
+			top: 20px;
+	    background-image: url(http://www.setwalls.ru/pic/201305/640x960/setwalls.ru-52037.jpg);
+	    background-repeat: no-repeat;
+	    background-size: contain;
+	    background-position: center;
+	    height: 85%;
+	    position: fixed!important;
+		}
+		#btn_close{
+			background: none;
+			display: none;
+			width: 30px;
+			height: 30px;
+			background-image: url(close.png);
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: fixed;
+			top: 15%;
+		}
+		.crow{
+			width: 42px;
+			height: 30px;
+			top: 20px;
+			left: 86%;
+			background-image: url(crown.png);
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: absolute;
+		}
+		.toolbar{
+			margin-top:10px;
+			height: 50px;
+
+		}
+		.like{
+			height: 99%;
+			cursor: pointer;
+			background-image: url(like.png);
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
+		.account-likes{
+			height: 99%;
+		  color:#343434;
+			font-size: 40px;
+		}
+		.download{
+			height: 99%;
+			cursor: pointer;
+			background-image: url(download.png);
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
+		.repost{
+			height: 99%;
+			cursor: pointer;
+			background-image: url(repost.png);
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
+		.info{
+			height: 99%;
+			cursor: pointer;
+			background-image: url(info.png);
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
